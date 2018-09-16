@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> </title>		
+		<link rel="stylesheet" type="text/css" href="css/style.css">		
+	</head>	
+	<body>
+		<div id="page-wrapper" class="container">
+			<h1>Zapraszamy do gry </h1>
+			<br>
+			<div>
+				<button id="button-paper" class="button_play" data-id="1">papier</button>
+				<button id="button-stone" class="button_play" data-id="2">kamień</button>
+				<button id="button-shears" class="button_play" data-id="3">nożyce</button>
+			</div>	<br>	
+			<div id="output-score"></div> <br><br>
+			<!-- <div id="result"></div> <br> -->
+			<!-- <div id="result1"></div> <br> -->
+
+			<div class="overlay" id="modal-overlay">			
+				<div class="modal" id="modal-one">
+					<a href="#" class="close">x</a>
+					<header><div id="result1"></div></header> <br>
+					<div id="result"></div> <br><br>
+					<div class="result" id="result2"></div> <br>
+				</div>
+			</div>	
+			<div id="new_game"></div>
+			<script src="js/script.js"></script>		
+		</div>			
+	</body>	
+</html>
